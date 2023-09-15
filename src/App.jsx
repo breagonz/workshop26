@@ -1,16 +1,9 @@
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-      <div>
-        
-      </div>
-      
+      <ContactList />
     </>
-  )
+  );
 }
-
-export default App
